@@ -10,38 +10,55 @@
   --title-bar-control-bg-alert-color-hover: #7ea64b;
 }
 
-[class*='steamdesktop_TitleBarControls'] {
+._1-9sir4j_KQiMqdkZjQN0u {
   margin-top: 8px;
+  height: 24px;
 
-  [class*='titlebarcontrols_AccountMenu_'] {
+  ._3yD46y5pd3zOGR7CzKs0mC {
     background-color: var(--title-bar-control-bg-color);
   }
 
-  [class*='titlebarcontrols_Button_'] {
+  ._2Szzh5sKyGgnLUR870zbDE {
     background-color: var(--title-bar-control-bg-color);
 
-    [class*='titlebarcontrols_Icon_'] {
+    ._34bQcTHo5QKzuujoEyU1tm {
       color: var(--title-bar-control-icon-color);
     }
 
     &:hover {
       background-color: var(--title-bar-control-bg-color-hover);
 
-      [class*='titlebarcontrols_Icon_'] {
+      ._34bQcTHo5QKzuujoEyU1tm {
         color: var(--title-bar-control-icon-color-hover);
       }
     }
   }
 
-  [class*='titlebarcontrols_Button_'][class*='HasNew'] {
+  ._2Szzh5sKyGgnLUR870zbDE._3L1c8C0o_xXzPy26aoLBFd {
     background-color: var(--title-bar-control-bg-alert-color);
 
-    [class*='titlebarcontrols_Icon_'] {
+    ._34bQcTHo5QKzuujoEyU1tm {
       color: var(--title-bar-control-icon-alert-color);
     }
 
     &:hover {
       background-color: var(--title-bar-control-bg-alert-color-hover);
     }
+  }
+
+  ._2Szzh5sKyGgnLUR870zbDE,
+  ._2Lu3d-5qLmW4i19ysTt2jT {
+    height: 24px;
+  }
+
+  ._5wILZhsLODVwGfcJ0hKmJ,
+  ._3mGEzzp18imtSzGPkduedi,
+  ._3yD46y5pd3zOGR7CzKs0mC {
+    margin-right: 4px !important;
+  }
+
+  ._5wILZhsLODVwGfcJ0hKmJ,
+  ._3qhGkQ5qLVNQQ-J2-uPoHt {
+    padding: 0 8px;
   }
 }

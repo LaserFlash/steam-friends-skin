@@ -5,9 +5,7 @@
   --window-control-bg-color-hover: #3d4450;
   --window-control-exit-bg-color: transparent;
   --window-control-exit-bg-color-hover: #e22a27;
-  --window-control-exit-icon-color-hover: var(
-    --window-control-icon-color-hover
-  );
+  --window-control-exit-icon-color-hover: var(--window-control-icon-color-hover);
 }
 
 $window-control-button-size: 22px;
@@ -16,6 +14,7 @@ $window-control-button-size: 22px;
 .TitleBar.title-area {
   .title-bar-actions {
     margin: 1px;
+    margin-top: 3px;
     max-height: $window-control-button-size + $padding-sm * 2;
 
     .title-area-icon {

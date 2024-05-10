@@ -9,17 +9,15 @@
   --download-summary-width: 180px;
   --bottom-bar-top-margin: 9px;
   --title-bar-control-width: 174px;
-  --window-control-width: 134px;
-  --control-position: calc(
-    var(--window-control-width) + var(--title-bar-control-width) +
-      var(--username-length)
-  );
+  --window-control-width: 135px;
+  --control-position: calc(var(--window-control-width) + var(--title-bar-control-width) + var(--username-length));
 }
 
 /** ================================================================================== **/
 .DesktopUI {
+
   /** Position the buttons **/
-  [class*='bottombar_BottomBarContainer'] {
+  ._1_yS5UP7el0aN4vntx3dx {
     position: fixed;
     right: var(--control-position);
     top: var(--bottom-bar-top-margin);
@@ -28,48 +26,50 @@
   /** ================================================================================== **/
 
   /** Override some colours and sizes **/
-  [class*='bottombar_BottomBar_'] {
+  ._3vCzSrrXZzZjVJFZNg9SGu {
     background: none;
     box-shadow: none;
     flex: 0;
-    gap: 8px;
-    margin-right: 8px;
+    gap: 4px;
+    margin-right: 6px;
     padding: 0;
     width: fit-content;
   }
 
-  [class*='bottombar_BottomBar'] {
+  ._1_yS5UP7el0aN4vntx3dx,
+  ._3vCzSrrXZzZjVJFZNg9SGu {
+
     /* Apply color to match title bar */
-    [class*='bottombar_AddGameButton_'],
-    [class*='bottombar_DownloadStatus_'],
-    [class*='bottombar_FriendsButton_'] {
+    ._2foCkpRXhqq0UGVE50BWqj,
+    ._2EQ7ghgqIdjKv9jsQC0Zq9,
+    ._1TdaAqMFadi0UTqilrkelR {
       background-color: var(--title-bar-control-bg-color);
 
-      [class*='bottombar_Icon_'] {
+      ._1KrJ3sFAqPBN9mfpaNTU5F {
         color: var(--title-bar-control-icon-color);
       }
 
-      [class*='bottombar_Queue_'],
-      [class*='bottombar_Status_'] {
+      ._3wJnTtcTLEp0R7eQj_mK8Y,
+      ._1sCy-pm412Smb0wJx0W-4 {
         color: var(--title-bar-control-text-color);
       }
 
       &:hover {
         background-color: var(--title-bar-control-bg-color-hover);
 
-        [class*='bottombar_Icon_'] {
+        ._1KrJ3sFAqPBN9mfpaNTU5F {
           color: var(--title-bar-control-icon-color-hover);
         }
 
-        [class*='bottombar_Queue_'] {
+        ._3wJnTtcTLEp0R7eQj_mK8Y {
           color: var(--title-bar-control-text-color-hover);
         }
       }
     }
 
-    [class*='FriendsButton_'],
-    [class*='AddGameButton_'],
-    [class*='DownloadStatus_'] {
+    ._1TdaAqMFadi0UTqilrkelR,
+    ._2foCkpRXhqq0UGVE50BWqj,
+    ._2EQ7ghgqIdjKv9jsQC0Zq9 {
       align-items: center;
       background-color: rgb(103 112 123 / 20%);
       border-radius: 2px;
@@ -78,7 +78,9 @@
       justify-content: center;
       min-height: 24px;
       min-width: 24px;
-      padding: 0 12px;
+      padding: 0 8px;
+      gap: unset;
+
 
       &:hover {
         background-color: #3d4450;
@@ -89,17 +91,17 @@
     /** ================================================================================== **/
 
     /** Style the download progress **/
-    [class*='DownloadStatus_'] {
+    ._2EQ7ghgqIdjKv9jsQC0Zq9 {
       flex-grow: 0;
       order: var(--order-download);
       padding: 0 6px;
 
-      [class*='DetailedDownloadProgress'] {
+      ._2VtAqT03BpBsVdmxwptn9D {
         align-items: center;
         max-width: var(--download-summary-width);
       }
 
-      [class*='DetailedDownloadProgress'] [class*='bottombar_Icon'] {
+      ._2VtAqT03BpBsVdmxwptn9D ._1KrJ3sFAqPBN9mfpaNTU5F {
         box-shadow: none;
         height: 20px;
         margin: 0;
@@ -107,24 +109,24 @@
         width: 20px;
       }
 
-      [class*='DetailedDownloadProgress'] [class*='ProgressBarWrapper'] {
+      ._2VtAqT03BpBsVdmxwptn9D ._2_FomluqqgQ2Hx8ON3AVep {
         margin: 0;
       }
 
-      [class*='DetailedDownloadProgress'] [class*='Status'],
-      [class*='DownloadStatusContent_'] [class*='Queue_'] {
+      ._2VtAqT03BpBsVdmxwptn9D ._1sCy-pm412Smb0wJx0W-4,
+      ._2VtAqT03BpBsVdmxwptn9D ._1xCcFYWIrJ7W8WRDmGvR3y .ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y {
         padding-top: 0;
       }
 
-      [class*='DetailedDownloadProgress'] [class*='IconBevel'] {
+      ._2VtAqT03BpBsVdmxwptn9D ._21vPQjHoo0uwud5lfCD_x {
         display: none;
       }
 
-      [class*='DownloadStatusContent_'] {
+      .ip-YZhijAMZcuRoXBGiye {
         padding: 0;
       }
 
-      [class*='bottombar_DownloadStatusContent_'] svg {
+      .ip-YZhijAMZcuRoXBGiye svg {
         transform: translateY(-2px);
       }
     }
@@ -132,27 +134,30 @@
     /** ================================================================================== **/
 
     /** Hide elements we don't want **/
-    [class*="updatealert_Alert_"] /* need to find out what this is */ {
+    ._2iJsgdTIX9Tj23rWnB7Q-c
+
+    /* need to find out what this is */
+      {
       display: none;
     }
 
     /** ================================================================================== **/
 
     /** Change the order and override some styles **/
-    [class*='AddGameButton_'] {
+    ._2foCkpRXhqq0UGVE50BWqj {
       order: var(--order-add-game);
     }
 
-    [class*='FriendsButton_'] {
+    ._1TdaAqMFadi0UTqilrkelR {
       order: var(--order-friends);
     }
 
     /** ================================================================================== **/
 
     /** make friends & add game text a tooltip **/
-    [class*='AddGameButton_'],
-    [class*='FriendsButton_'] {
-      [class*='bottombar_Text'] {
+    ._2foCkpRXhqq0UGVE50BWqj,
+    ._1TdaAqMFadi0UTqilrkelR {
+      ._3OhUxFVlQYr9W5ThxstR8k {
         background-color: #696773;
         border-radius: 2px;
         box-shadow: 1px 1px 8px #0005, 2px 2px 16px 1px #0005;
@@ -168,12 +173,16 @@
         top: 32px;
         transition: opacity 0.25s;
         user-select: none;
-        width: fit-content;
+        width: max-content;
       }
 
-      &:hover [class*='bottombar_Text'] {
+      &:hover ._3OhUxFVlQYr9W5ThxstR8k {
         opacity: 1;
       }
     }
+  }
+
+  ._21vPQjHoo0uwud5lfCD_x- {
+    display: none;
   }
 }

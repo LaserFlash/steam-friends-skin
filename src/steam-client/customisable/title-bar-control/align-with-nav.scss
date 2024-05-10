@@ -4,20 +4,20 @@
 }
 
 .DesktopUI {
-  [class*='steamdesktop_TitleBarControls_'] {
+  ._1-9sir4j_KQiMqdkZjQN0u {
     margin-top: 0;
     position: fixed;
     right: 0;
     top: var(--bottom-bar-top-margin);
 
-    [class*='titlebarcontrols_GamepadUIToggle_'] {
+    ._3LKQ3S_yqrebeNLF6aeiog {
       position: fixed;
       right: 80px;
       top: 1px;
     }
   }
 
-  [class*='steamdesktop_SuperNavBar_'] {
+  ._3Z3ohQ8-1NKnCZkbS6fvy {
     -webkit-app-region: none;
   }
 }

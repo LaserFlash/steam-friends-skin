@@ -1,7 +1,7 @@
 @import 'common/window-control';
 
-[class*='steamdesktop_TitleBar_'] {
-  [class*='steamdesktop_WindowControls_'] {
+._39oUCO1OuizVPwcnnv88no {
+  .qP17eBPXkfezFfexZ4hC3 {
     flex-basis: 78px;
   }
 
@@ -10,22 +10,21 @@
       steam tries to make this into a window toggle, 
       so we will finish that work
 */
-  [class*='steamdesktop_TitleBarControls_'] {
-    margin-right: 0;
+  ._1-9sir4j_KQiMqdkZjQN0u {
+    margin-right: 1px;
 
-    [class*='titlebarcontrols_GamepadUIToggle_'] {
+    ._3LKQ3S_yqrebeNLF6aeiog {
       align-items: center;
       background-color: var(--window-control-bg-color);
       cursor: pointer;
       display: flex;
       height: $window-control-button-size;
-      margin-top: -4px;
       min-height: $window-control-button-size;
       min-width: $window-control-button-size;
       padding: $padding-sm;
       width: $window-control-button-size;
 
-      [class*='titlebarcontrols_Icon'] {
+      ._34bQcTHo5QKzuujoEyU1tm {
         color: var(--window-control-icon-color) !important;
         height: 15px;
         position: unset;
@@ -35,7 +34,7 @@
       &:hover {
         background-color: var(--window-control-bg-color-hover) !important;
 
-        [class*='titlebarcontrols_Icon'] {
+        ._34bQcTHo5QKzuujoEyU1tm {
           color: var(--window-control-icon-color-hover) !important;
         }
       }

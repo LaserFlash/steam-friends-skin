@@ -13,12 +13,14 @@
 }
 
 /** Root menu/toolbar **/
-[class*='steamdesktop_TitleBar'] {
+._39oUCO1OuizVPwcnnv88no,
+._1-9sir4j_KQiMqdkZjQN0u {
   background-color: var(--root-menu-bg-color);
 
-  [class*='rootmenu_RootMenuBar'] {
-    [class*='rootmenu_SteamButton'],
-    [class*='rootmenu_RootMenuButton'] {
+  ._1Ky59qmywxOUtNcI1cgmkX {
+
+    .bSKGlAJG2UVWTsntEJY2v,
+    ._2UyOBeiSdBayaFdRa39N2O {
       color: var(--root-menu-text-color);
 
       &:hover {
@@ -31,14 +33,15 @@
 /** =================================== **/
 
 /** Nav toolbar **/
-[class*='steamdesktop_SuperNavBar'] {
+._3Z3ohQ8-1NKnCZkbS6fvy {
+
   /** Navigation arrows **/
-  [class*='supernav_Arrow_'] {
-    [class*='supernav_Disabled_'] {
+  ._25lBLzuVeYAUG279up4xP8 {
+    ._2cO0HdvLEGAdhosLekWsmo {
       color: var(--nav-arrow-color-disabled);
     }
 
-    [class*='supernav_Enabled_'] {
+    ._1LYTHQzcI1u6tcxbbcc5V3 {
       color: var(--nav-arrow-color-enabled);
 
       &:hover {
@@ -48,8 +51,8 @@
   }
 
   /** Navigation tabs - Store, Library, etc **/
-  [class*='supernav_SuperNavMenu'] {
-    [class*='supernav_MenuButton'] {
+  ._7AlhCx3XGzBeIrQaCneUD {
+    ._19axKcqYRuaJ8vdYKYmtTQ {
       color: var(--nav-text-color);
 
       &:hover {
@@ -58,7 +61,7 @@
     }
 
     /* the active / selected tab */
-    &[class*='supernav_Selected'] [class*='supernav_MenuButton'] {
+    &._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ {
       color: var(--nav-text-color-active);
 
       &::after {
@@ -69,6 +72,10 @@
 }
 
 /* acts as nav background color */
-[class*='steamdesktop_TopBar_'] {
+._3Z7VQ1IMk4E3HsHvrkLNgo {
   background: var(--nav-bg-color);
+}
+
+._1p_QrI3ixF-RAwnxad9pEm {
+  box-shadow: unset !important;
 }

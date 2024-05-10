@@ -1,22 +1,27 @@
 .DesktopUI {
   --bottom-bar-top-margin: 4px;
 
-  [class*='steamdesktop_TitleBar_'] {
+  ._39oUCO1OuizVPwcnnv88no {
     height: 30px;
   }
 
-  [class*='steamdesktop_TitleBarControls'] {
-    margin-top: 1px;
+  ._1-9sir4j_KQiMqdkZjQN0u {
+    margin-top: 4px;
   }
 
-  [class*='steamdesktop_SuperNavBar_'] {
+  ._3Z3ohQ8-1NKnCZkbS6fvy {
     height: 36px;
     min-height: 36px;
   }
 
-  [class*='steamdesktop_LocalContentContainer_'],
-  [class*='steamdesktop_URLBarReplacement_'] {
+  .RGNMWtyj73_-WdhflrmuY,
+  ._2CmrnGY-Amtd83ScJkFvx2 {
     height: min-content;
     min-height: 0;
+  }
+
+
+  ._3yD46y5pd3zOGR7CzKs0mC {
+    min-height: 24px;
   }
 }
