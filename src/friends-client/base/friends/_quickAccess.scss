@@ -1,10 +1,5 @@
 .quickAccessFriends {
   .quickAccessFriend {
-    /* Hide name in QuickAccess as generally does not fit */
-    .playerNameQuickAccessContainer {
-      display: none !important;
-    }
-
     /* Away or snooze is never transparent */
     &.awayOrSnooze .avatarHolder img {
       opacity: 1 !important;
@@ -16,7 +11,11 @@
     }
   }
 
-  /* Adjust removal of name */
+  /* Hide name in QuickAccess as generally does not fit */
+  .playerNameQuickAccessContainer {
+    display: none !important;
+  }
+
   .favoriteElement {
     height: auto !important;
   }

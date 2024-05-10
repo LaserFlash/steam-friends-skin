@@ -1,21 +1,21 @@
 @use 'common/button/button';
 
-[class*='friendslist_OfflineContainer_'] {
+._2HYiy2iyfdo7xMy_a1Cjhq {
   background: rgb(var(--friendlist));
 
-  [class*='summaryText'] {
+  .nKXfubhpv_zmmMcEsbg0B {
     border-bottom: $border-width-sm rgb(var(--away)) solid;
     color: rgb(var(--away)) !important;
     font-size: 12px;
     font-weight: bold;
   }
 
-  [class*='detailText'] {
+  ._2JaMGV2vMu6X_6e2UKmrf_ {
     color: rgb(var(--text)) !important;
     text-align: center;
   }
 
-  [class*='retryButton'] {
+  ._1BUWXzey55_H5QKdz6Olrn {
     @include button.base;
 
     box-shadow: none;

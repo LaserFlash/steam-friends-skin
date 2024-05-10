@@ -168,7 +168,7 @@ CHAT WINDOW
   padding-bottom: 0 !important;
 }
 
-.chatentry_chatEntryControls_2O_X7 {
+._2gP0DqVyb1aEACymAe6if3 {
   background-color: rgb(var(--friendlist)) !important;
 }
 
@@ -292,11 +292,11 @@ CHAT WINDOW
                           Chat Actions / Controls                            */
 
 /* Chat Action Area */
-[class*='chatentry_chatEntryActionsGroup'] {
+._3grea2u6WuuGLHj9gJFmzY {
   background: unset !important;
 }
 
-[class*='chatentry_chatSubmitButton'][class*='chatentry_EmbedButton'],
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg,
 .VoiceToggle,
 .VoiceToggle.Active {
   background: none !important;
@@ -304,25 +304,29 @@ CHAT WINDOW
   border-radius: $border-radius-round;
 }
 
-[class*='chatentry_chatSubmitButton'][class*='chatentry_EmoticonPickerButton']:hover,
-[class*='chatentry_chatSubmitButton'][class*='chatentry_EmbedButton']:hover,
+._1IEiKQnjHpIvK-lPMiafCuZRqjfXykuj:hover,
+._1IEiKQnjHpIv-m601y6hvP._24xNxnnkSf6A1WY3MnCCeg:hover,
 .VoiceToggle:hover,
 .VoiceToggle.Inactive:hover {
   background-color: rgb(var(--friendlist));
 }
 
-[class*='chatentry_chatSubmitButton'] circle,
-[class*='chatentry_chatSubmitButton'] path,
-[class*='chatentry_chatSubmitButton'] line,
+._1IEiKQnjHpIv-m601y6hvP {
+  path {
+    fill: rgb(var(--icon)) !important;
+  }
+
+  &:hover path {
+    stroke: rgb(var(--iconhover)) !important;
+  }
+}
+
 .VoiceToggleIconCtn path,
 .VoiceToggleIconCtn polyline,
 .ToggleMemberListView polyline {
   stroke: rgb(var(--icon)) !important;
 }
 
-[class*='chatentry_chatSubmitButton']:hover circle,
-[class*='chatentry_chatSubmitButton']:hover path,
-[class*='chatentry_chatSubmitButton']:hover line,
 .VoiceToggle:hover path,
 .VoiceToggle:hover polyline,
 .ToggleMemberListView:hover polyline {
@@ -338,7 +342,7 @@ CHAT WINDOW
   display: none;
 }
 
-[class*='chatentry_chatSubmitButton'] {
+._1IEiKQnjHpIv-m601y6hvP {
   background-color: transparent !important;
   border: 0 !important;
   margin: 0 !important;
@@ -346,7 +350,7 @@ CHAT WINDOW
   padding: 0 !important;
 }
 
-[class*='chatentry_chatSubmitButton']:not([class*='chatentry_disabled']):hover {
+._1IEiKQnjHpIv-m601y6hvP:not([class*='chatentry_disabled']):hover {
   background-color: rgb(var(--friendlist));
 }
 

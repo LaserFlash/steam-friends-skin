@@ -3,22 +3,22 @@
 * Tabs for each friend at the top of the chat window
 */
 
-[class*='chattabs_ChatTab_'] {
+.X2iywwN7fcdh9zXpXVsrk {
   border-radius: $border-radius;
   padding-right: $padding;
 }
 
-.chatTabSetContainer [class*='chattabs_ChatTab_'][class*='chattabs_Active'] {
+.chatTabSetContainer .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
   background: rgb(var(--friendlist));
 }
 
-[class*='chattabs_ChatTab_']:hover:not([class*='chattabs_Active']) {
+.X2iywwN7fcdh9zXpXVsrk:hover:not(._1BNlZUYDbVr8VhCTmq7ksk) {
   background: rgb(var(--header)) !important;
 }
 
 /* Offline avatar filter */
-[class*='chattabs_ChatTab_']:hover .friend.offline .avatarHolder .avatar,
-[class*='chattabs_ChatTab_'][class*='chattabs_Active']
+.X2iywwN7fcdh9zXpXVsrk:hover .friend.offline .avatarHolder .avatar,
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk
   .friend.offline
   .avatarHolder
   .avatar {
@@ -26,7 +26,7 @@
 }
 
 /* Tab Close Button */
-[class*='chattabs_CloseButton'] {
+._18EIcuUAoTtqjzcDzsTcdy {
   margin-left: 2px;
   margin-right: 2px;
 
@@ -37,6 +37,7 @@
 
   .SVGIcon_Button {
     padding: 1px;
+    width: unset;
   }
 }
 
@@ -45,7 +46,7 @@
 }
 
 /* Group chat tab text colour */
-[class*='chattabs_Active'] [class*='chattabs_ChatTabContent_ChatRoomName'] {
+._1BNlZUYDbVr8VhCTmq7ksk [class*='chattabs_ChatTabContent_ChatRoomName'] {
   color: rgb(var(--text));
 }
 
@@ -61,12 +62,11 @@
 
 /* Style Chat Tab context menu - more friends drop down */
 
-.ChatTabsContextMenu [class*='chattabs_ChatTab_'][class*='chattabs_Active'] {
+.ChatTabsContextMenu .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
   background: rgb(var(--header));
 }
 
-.ChatTabsContextMenu
-  [class*='chattabs_ChatTab_'][class*='chattabs_Active']:hover {
+.ChatTabsContextMenu .X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk:hover {
   background: rgb(var(--friendlist));
 }
 
@@ -78,7 +78,7 @@
   margin-left: 90% !important;
 }
 
-.ChatTabsContextMenu [class*='chattabs_ChatTab_'] {
+.ChatTabsContextMenu .X2iywwN7fcdh9zXpXVsrk {
   padding-left: $spacer-sm;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .ChatTabsContextMenu
-  [class*='chattabs_Active']
+  ._1BNlZUYDbVr8VhCTmq7ksk
   [class*='chattabs_ChatTabContent_ChatRoomName'] {
   color: rgb(var(--listtext));
 }

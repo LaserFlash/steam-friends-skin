@@ -21,12 +21,12 @@
   --iconhover: #{hex-to-rgb($white)};
 
   /* Status Colours */
-  --ingame: #{hex-to-rgb($dark-ingame)};
-  --online: #{hex-to-rgb($dark-online)};
-  --away: #{hex-to-rgb($dark-away)};
+  --ingame: 255 0 0;
+  --online: 255 0 0;
+  --away: 255 0 0;
   --away-in-game: var(--away);
-  --watching: #{hex-to-rgb($dark-watching)};
-  --offline: #{hex-to-rgb($dark-offline)};
+  --watching: 255 0 0;
+  --offline: 255 0 0;
 
   /* Buttons */
   --button-on: #{hex-to-rgb($accent)};

@@ -37,7 +37,7 @@ DISCORD STATUS (DEFAULT)
   }
 
   .FriendPicker .friend:not(:hover) .avatarStatus,
-  .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .avatarStatus,
+  .chattabs_ChatTab_1WfqA:not(._1BNlZUYDbVr8VhCTmq7ksk) .avatarStatus,
   .ChatTabsContextMenu .contextMenuItem:not(:hover) .avatarStatus {
     background-color: rgb(var(--header));
     box-shadow: 0 0 0 4px rgb(var(--header)) !important;
@@ -126,8 +126,8 @@ DISCORD STATUS (DEFAULT)
     .contextMenuItem:not(:hover)
     .awayOrSnooze
     .avatarStatus::before,
-  .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .offline .avatarStatus,
-  .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI)
+  .chattabs_ChatTab_1WfqA:not(._1BNlZUYDbVr8VhCTmq7ksk) .offline .avatarStatus,
+  .chattabs_ChatTab_1WfqA:not(._1BNlZUYDbVr8VhCTmq7ksk)
     .awayOrSnooze
     .avatarStatus::before,
   .friendCategoryContainer .offline:hover .avatarStatus,

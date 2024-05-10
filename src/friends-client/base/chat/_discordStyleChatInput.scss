@@ -10,40 +10,33 @@
   padding: 0;
 }
 
-[class*='chatentry_chatEntryActionsContainer'] {
+._1X1-nhi0oX1Wy7y1mEIc1o {
   margin: auto !important;
 }
 
-[class*='chatentry_chatTextarea'] {
+.pewyBQoFSgFWo_Ms99aRm {
   box-shadow: none !important;
-  //   box-sizing: border-box;
-  //   margin: auto;
-  //   padding: 0;
 }
 
-// [class*='chatentry_chatEntryControls'] [class*='chatentry_chatSubmitButton'] {
-//   align-self: auto;
-// }
-
-[class*='chatentry_chatEntryControls'] {
+._2gP0DqVyb1aEACymAe6if3 {
   background-color: unset !important;
   padding: 10px;
 }
 
 // /* Hide the shadow between text input and viewing area */
-.chatStack [class*='insetshadow_FriendListInsetShadowBottom'] {
+.chatStack ._2hL6ssOeMwczcGsrkJWupl {
   display: none;
 }
 
 /* Ensure breaking default steam shadows are not present */
-[class*='chatentry_chatEntryControls'],
-[class*='chatentry_chatEntryActionsGroup'],
+._2gP0DqVyb1aEACymAe6if3,
+._3grea2u6WuuGLHj9gJFmzY,
 .ChatMessageEntryVoice {
   box-shadow: none !important;
 }
 
 /** Emoticon Picker button */
-[class*='chatentry_EmoticonPickerButton'] {
+K-lPMiafCuZRqjfXykuj {
   .SVGIcon_Emoticon {
     background-image: url('assets/emojiIcon.svg');
     background-repeat: no-repeat;
@@ -85,7 +78,7 @@
 }
 
 /** Add file button */
-[class*='chatentry_EmbedButton'] {
+._24xNxnnkSf6A1WY3MnCCeg {
   .SVGIcon_Paperclip {
     background-image: url('assets/attachIcon.svg');
     background-repeat: no-repeat;
@@ -109,19 +102,17 @@
   }
 }
 
-[class*='chatentry_EmbedButton']
-
 /**
  * Chat Controls
  */
 
 /* remove existing styles */
-[class*='chatentry_chatEntryActionsGroup'] {
+._3grea2u6WuuGLHj9gJFmzY {
   background-color: unset !important;
 }
 
 /* all controls are referred to as chatSubmitButton, regardless of what action they perform */
-[class*='chatentry_chatSubmitButton'] {
+._1IEiKQnjHpIv-m601y6hvP {
   /* remove existing styles */
   background-color: unset !important;
   border: 0 !important;
@@ -133,20 +124,6 @@
   /* Hide when disabled */
   &[class*='chatentry_disabled'] .SVGIcon_Submit {
     opacity: 0;
-  }
-
-  /* apply icon styles */
-  .SVGIcon_Submit {
-    transition: 0.2s linear;
-
-    path {
-      stroke: rgb(var(--icon)) !important;
-      stroke-width: 6px;
-    }
-  }
-
-  &:hover .SVGIcon_Submit path {
-    stroke: rgb(var(--iconhover)) !important;
   }
 
   svg {
